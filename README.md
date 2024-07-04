@@ -4,8 +4,9 @@ This script parses the table of content in a google doc within a given range. It
 This script also takes a few minutes to run as it scans the whole looking for a match, for each header parsed from the table of contents. This script is not polished and is a more of a proof of concept. However, I thought someone may find use of it, or use in expanding it, or I may revisit it one day. 
 
 ## How to use
+ * At the top of a google doc file, go to Extensions > Apps Script. Copy and paste the code there.
  * Set startStopPairs, each pair defines a range between two entries on the table of contents that this program will prase. It'll skip over anything else.
- * Run the "LinkHeaders()" function... that's it.
+ * Select the "LinkHeaders()" as the function to run and run the "LinkHeaders()" function... that's it.
  * You may want to check the final product in case it added the links in areas you didn't want it.
 
 # Credit
